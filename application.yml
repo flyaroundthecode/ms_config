@@ -4,7 +4,7 @@ spring:
         hibernate:
             ddl-auto: update
     datasource:
-        url: jdbc:mysql://localhost:3306/shopping_cart_db?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-        username: {cipher}5880afa7c306c170489958ee584291e4ef86ff8ec3000df0b96bf246367a5f5d
-        password: {cipher}405720b2aad47cba7d1c309131790cba23edc94c524e8e9eb0e51415bdad3fac
+        url: "jdbc:mysql://localhost:3306/shopping_cart_db?useSSL=false&useUnicode=true&characterEncoding=UTF-8"
+        username: "{cipher}5880afa7c306c170489958ee584291e4ef86ff8ec3000df0b96bf246367a5f5d"
+        password: "{cipher}405720b2aad47cba7d1c309131790cba23edc94c524e8e9eb0e51415bdad3fac"
         driver-class-name: com.mysql.cj.jdbc.Driver
